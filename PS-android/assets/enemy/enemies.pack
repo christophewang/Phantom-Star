@@ -1,0 +1,145 @@
+
+enemies.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+enemyBlack2
+  rotate: false
+  xy: 0, 84
+  size: 104, 84
+  orig: 104, 84
+  offset: 0, 0
+  index: -1
+enemyBlue2
+  rotate: false
+  xy: 0, 0
+  size: 104, 84
+  orig: 104, 84
+  offset: 0, 0
+  index: -1
+enemyGreen2
+  rotate: false
+  xy: 104, 84
+  size: 104, 84
+  orig: 104, 84
+  offset: 0, 0
+  index: -1
+enemyRed2
+  rotate: false
+  xy: 104, 0
+  size: 104, 84
+  orig: 104, 84
+  offset: 0, 0
+  index: -1
+enemyBlack3
+  rotate: false
+  xy: 208, 84
+  size: 103, 84
+  orig: 103, 84
+  offset: 0, 0
+  index: -1
+enemyBlue3
+  rotate: false
+  xy: 208, 0
+  size: 103, 84
+  orig: 103, 84
+  offset: 0, 0
+  index: -1
+enemyGreen3
+  rotate: false
+  xy: 311, 84
+  size: 103, 84
+  orig: 103, 84
+  offset: 0, 0
+  index: -1
+enemyRed3
+  rotate: false
+  xy: 311, 0
+  size: 103, 84
+  orig: 103, 84
+  offset: 0, 0
+  index: -1
+enemyBlack5
+  rotate: false
+  xy: 414, 84
+  size: 97, 84
+  orig: 97, 84
+  offset: 0, 0
+  index: -1
+enemyBlue5
+  rotate: false
+  xy: 414, 0
+  size: 97, 84
+  orig: 97, 84
+  offset: 0, 0
+  index: -1
+enemyGreen5
+  rotate: false
+  xy: 511, 84
+  size: 97, 84
+  orig: 97, 84
+  offset: 0, 0
+  index: -1
+enemyRed5
+  rotate: false
+  xy: 511, 0
+  size: 97, 84
+  orig: 97, 84
+  offset: 0, 0
+  index: -1
+enemyBlack1
+  rotate: false
+  xy: 608, 84
+  size: 93, 84
+  orig: 93, 84
+  offset: 0, 0
+  index: -1
+enemyBlue1
+  rotate: false
+  xy: 608, 0
+  size: 93, 84
+  orig: 93, 84
+  offset: 0, 0
+  index: -1
+enemyGreen1
+  rotate: false
+  xy: 701, 84
+  size: 93, 84
+  orig: 93, 84
+  offset: 0, 0
+  index: -1
+enemyRed1
+  rotate: false
+  xy: 701, 0
+  size: 93, 84
+  orig: 93, 84
+  offset: 0, 0
+  index: -1
+enemyBlack4
+  rotate: false
+  xy: 794, 84
+  size: 82, 84
+  orig: 82, 84
+  offset: 0, 0
+  index: -1
+enemyBlue4
+  rotate: false
+  xy: 794, 0
+  size: 82, 84
+  orig: 82, 84
+  offset: 0, 0
+  index: -1
+enemyGreen4
+  rotate: false
+  xy: 876, 84
+  size: 82, 84
+  orig: 82, 84
+  offset: 0, 0
+  index: -1
+enemyRed4
+  rotate: false
+  xy: 876, 0
+  size: 82, 84
+  orig: 82, 84
+  offset: 0, 0
+  index: -1

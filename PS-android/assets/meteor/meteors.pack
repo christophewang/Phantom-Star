@@ -1,0 +1,145 @@
+
+meteors.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+meteorBrown_big2
+  rotate: false
+  xy: 0, 10
+  size: 120, 98
+  orig: 120, 98
+  offset: 0, 0
+  index: -1
+meteorGrey_big2
+  rotate: false
+  xy: 120, 10
+  size: 120, 98
+  orig: 120, 98
+  offset: 0, 0
+  index: -1
+meteorBrown_big4
+  rotate: false
+  xy: 240, 12
+  size: 98, 96
+  orig: 98, 96
+  offset: 0, 0
+  index: -1
+meteorGrey_big4
+  rotate: false
+  xy: 338, 12
+  size: 98, 96
+  orig: 98, 96
+  offset: 0, 0
+  index: -1
+meteorBrown_big1
+  rotate: false
+  xy: 436, 24
+  size: 101, 84
+  orig: 101, 84
+  offset: 0, 0
+  index: -1
+meteorBrown_tiny1
+  rotate: false
+  xy: 436, 6
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+meteorGrey_tiny1
+  rotate: false
+  xy: 454, 6
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+meteorBrown_tiny2
+  rotate: false
+  xy: 472, 9
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+meteorGrey_tiny2
+  rotate: false
+  xy: 488, 9
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+meteorGrey_big1
+  rotate: false
+  xy: 537, 24
+  size: 101, 84
+  orig: 101, 84
+  offset: 0, 0
+  index: -1
+meteorBrown_big3
+  rotate: false
+  xy: 638, 26
+  size: 89, 82
+  orig: 89, 82
+  offset: 0, 0
+  index: -1
+meteorBrown_small2
+  rotate: false
+  xy: 638, 0
+  size: 29, 26
+  orig: 29, 26
+  offset: 0, 0
+  index: -1
+meteorGrey_small2
+  rotate: false
+  xy: 667, 0
+  size: 29, 26
+  orig: 29, 26
+  offset: 0, 0
+  index: -1
+meteorGrey_big3
+  rotate: false
+  xy: 727, 26
+  size: 89, 82
+  orig: 89, 82
+  offset: 0, 0
+  index: -1
+meteorBrown_med1
+  rotate: false
+  xy: 816, 65
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+meteorGrey_med1
+  rotate: false
+  xy: 816, 22
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+meteorBrown_med2
+  rotate: false
+  xy: 859, 68
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+meteorGrey_med2
+  rotate: false
+  xy: 859, 28
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+meteorBrown_small1
+  rotate: false
+  xy: 859, 0
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+meteorGrey_small1
+  rotate: false
+  xy: 887, 0
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
