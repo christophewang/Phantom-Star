@@ -90,6 +90,7 @@ public class World {
 				if (enemy.getBounds().overlaps(bullet.getBounds())) {
 					bulletsIterator.remove();
 					enemiesIterator.remove();
+					Audio.explosion();
 					score.setScore(score.getScore() + 1000);
 					score.update();
 				}

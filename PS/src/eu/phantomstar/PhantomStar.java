@@ -4,12 +4,13 @@ import com.badlogic.gdx.Game;
 import com.badlogic.gdx.graphics.FPSLogger;
 
 import eu.phantomstar.model.Asset;
+import eu.phantomstar.model.Audio;
 import eu.phantomstar.view.SplashScreen;
 
 public class PhantomStar extends Game {
 
 	public static final String TITLE = "PhantomStar";
-	public static final String VERSION = "0.2";
+	public static final String VERSION = "0.1";
 	public static final boolean DEBUG = false;
 	private FPSLogger fpsLogger;
 
@@ -24,6 +25,7 @@ public class PhantomStar extends Game {
 	public void dispose() {
 		super.dispose();
 		Asset.dispose();
+		Audio.dispose();
 	}
 
 	@Override

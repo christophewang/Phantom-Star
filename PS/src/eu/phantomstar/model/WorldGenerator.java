@@ -43,8 +43,8 @@ public class WorldGenerator {
 		height = Gdx.graphics.getHeight();
 		scale = height/1200;
 		meteorScale = 1;
-		enemiesSpeed = -1000;
-		meteorsSpeed = -1000;
+		enemiesSpeed = -500;
+		meteorsSpeed = -500;
 		ship = new Ship(new Vector2(width/2 - 
 				Asset.shipTexture.getWidth()*scale/2, 0f), 
 				Asset.shipTexture.getWidth()*scale, 
@@ -86,6 +86,7 @@ public class WorldGenerator {
 					Asset.bulletTexture.getWidth()*scale, 
 					Asset.bulletTexture.getHeight()*scale*2, 1000, 
 					new Vector2(bulletVector2.sub(ship.getPosition()).nor())));
+			Audio.shoot();
 		}
 	}
 	
@@ -104,7 +105,7 @@ public class WorldGenerator {
 	
 	private void generateMeteor(float delta) {
 		meteorTimer += delta;
-		if (meteorTimer > 0.4) {
+		if (meteorTimer > 0.8) {
 			meteorTimer = 0;
 			Collections.shuffle(meteorTypes);
 			MeteorType type = meteorTypes.get(0);

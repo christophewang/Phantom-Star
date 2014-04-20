@@ -12,6 +12,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 
 import eu.phantomstar.PhantomStar;
 import eu.phantomstar.model.Asset;
+import eu.phantomstar.model.Audio;
 
 public class MenuScreen implements Screen {
 	
@@ -86,6 +87,7 @@ public class MenuScreen implements Screen {
 		playButton = new TextButton("Play", Asset.skin);
 		scoresButton = new TextButton("HighScores", Asset.skin);
 		settingsButton = new TextButton("Settings", Asset.skin);
+		Audio.playMusic(true);
 	}
 
 	@Override
