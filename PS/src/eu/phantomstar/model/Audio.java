@@ -7,8 +7,8 @@ import com.badlogic.gdx.audio.Sound;
 public class Audio {
 
 	public static Music song = Gdx.audio.newMusic(Gdx.files.internal("audio/determination.mp3"));
-	public static Sound shoot = Gdx.audio.newSound(Gdx.files.internal("audio/shoot.wav"));
-	public static Sound explosion = Gdx.audio.newSound(Gdx.files.internal("audio/boom.wav"));
+	public static Sound shoot = Gdx.audio.newSound(Gdx.files.internal("audio/shoot.ogg"));
+	public static Sound explosion = Gdx.audio.newSound(Gdx.files.internal("audio/explosion.ogg"));
 	
 	public static void playMusic(boolean looping) {
 		song.setLooping(looping);
