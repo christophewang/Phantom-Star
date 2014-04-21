@@ -10,8 +10,8 @@ import eu.phantomstar.view.SplashScreen;
 public class PhantomStar extends Game {
 
 	public static final String TITLE = "PhantomStar";
-	public static final String VERSION = "0.1";
-	public static final boolean DEBUG = false;
+	public static final String VERSION = "0.2";
+	public static final boolean DEBUG = true;
 	private FPSLogger fpsLogger;
 
 	@Override

@@ -43,7 +43,7 @@ public class Asset {
 		shipTexture.setFilter(TextureFilter.Linear, TextureFilter.Linear);
 		bulletTexture = new Texture(Gdx.files.internal("data/laserBlue01.png"));
 		bulletTexture.setFilter(TextureFilter.Linear, TextureFilter.Linear);
-		backgroundTexture = new Texture(Gdx.files.internal("data/blackBackground.png"));
+		backgroundTexture = new Texture(Gdx.files.internal("data/blueBackground.png"));
 		backgroundTexture.setFilter(TextureFilter.Linear, TextureFilter.Linear);
 		backgroundTexture.setWrap(TextureWrap.Repeat, TextureWrap.Repeat);
 		meteorTexture = new Texture(Gdx.files.internal("data/meteorBrown_big1.png"));

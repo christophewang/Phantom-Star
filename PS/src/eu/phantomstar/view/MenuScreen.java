@@ -24,6 +24,7 @@ public class MenuScreen implements Screen {
 	
 	public MenuScreen(PhantomStar game) {
 		this.game = game;
+		Audio.gameover.stop();
 	}
 
 	public class MenuBackground extends Actor {
@@ -50,6 +51,7 @@ public class MenuScreen implements Screen {
 		playButton.setPosition(width / 2 - playButton.getWidth() / 2, height / 2 - playButton.getHeight() / 10);
 		playButton.addListener(new InputListener() {
 			public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
+				Audio.click.play();
 				game.setScreen(new GameScreen(game));
 			}
 			public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
@@ -60,6 +62,7 @@ public class MenuScreen implements Screen {
 		scoresButton.setPosition(width / 2 - scoresButton.getWidth() / 2, playButton.getY() - height / 10);
 		scoresButton.addListener(new InputListener() {
 			public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
+				Audio.click.play();
 				game.setScreen(new ScoresScreen());
 			}
 			public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
@@ -70,6 +73,7 @@ public class MenuScreen implements Screen {
 		settingsButton.setPosition(width / 2 - settingsButton.getWidth() / 2, scoresButton.getY() - height / 10);
 		settingsButton.addListener(new InputListener() {
 			public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
+				Audio.click.play();
 				game.setScreen(new SettingsScreen());
 			}
 			public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
@@ -87,7 +91,6 @@ public class MenuScreen implements Screen {
 		playButton = new TextButton("Play", Asset.skin);
 		scoresButton = new TextButton("HighScores", Asset.skin);
 		settingsButton = new TextButton("Settings", Asset.skin);
-		Audio.playMusic(true);
 	}
 
 	@Override

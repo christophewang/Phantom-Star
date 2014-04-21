@@ -86,7 +86,7 @@ public class WorldGenerator {
 					Asset.bulletTexture.getWidth()*scale, 
 					Asset.bulletTexture.getHeight()*scale*2, 1000, 
 					new Vector2(bulletVector2.sub(ship.getPosition()).nor())));
-			Audio.shoot();
+			Audio.shoot.play();
 		}
 	}
 	

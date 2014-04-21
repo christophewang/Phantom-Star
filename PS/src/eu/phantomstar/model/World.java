@@ -32,6 +32,7 @@ public class World {
 		score = new Score();
 		worldGenerator = new WorldGenerator();
 		ship = worldGenerator.getShip();
+		Audio.playMusic(true);
 		Gdx.input.setInputProcessor(new GestureDetector(new InputHandler(this)));
 	}
 	
@@ -56,7 +57,8 @@ public class World {
 			meteor = meteorsIterator.next();
 			meteor.update(delta);
 			if (ship.getBounds().overlaps(meteor.getBounds())) {
-				//ship.setAlive(false);
+				Audio.shipExplosion.play();
+				ship.setAlive(false);
 			}
 			if (meteor.getBounds().y < 0) {
 				meteorsIterator.remove();
@@ -79,7 +81,8 @@ public class World {
 			enemy = enemiesIterator.next();
 			enemy.update(delta);
 			if (ship.getBounds().overlaps(enemy.getBounds())) {
-				//ship.setAlive(false);
+				ship.setAlive(false);
+				Audio.shipExplosion.play();
 			}
 			if (enemy.getBounds().y < 0) {
 				enemiesIterator.remove();
@@ -90,7 +93,7 @@ public class World {
 				if (enemy.getBounds().overlaps(bullet.getBounds())) {
 					bulletsIterator.remove();
 					enemiesIterator.remove();
-					Audio.explosion();
+					Audio.explosion.play();
 					score.setScore(score.getScore() + 1000);
 					score.update();
 				}

@@ -50,7 +50,6 @@ public class WorldRenderer {
 		backgroundSprite = new Sprite(Asset.backgroundTexture, 0, 0, 
 				Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		shapeRenderer = new ShapeRenderer();
-		
 		stage = new Stage(Gdx.graphics.getWidth(), Gdx.graphics.getHeight(), false);
 	}
 	
@@ -72,10 +71,11 @@ public class WorldRenderer {
 		if (ship.isAlive()) {
 			drawGameWorld();
 		} else {
+			Audio.song.stop();
 			drawGameOverDialog();
 		}
 		spriteBatch.end();
-		
+
 		if (PhantomStar.DEBUG) {
 			shapeRenderer.setProjectionMatrix(camera.combined);
 			shapeRenderer.begin(ShapeType.Line);
