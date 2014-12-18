@@ -1,4 +1,4 @@
 PhantomStar
 ===========
 
-Android Shooter Game
+Android Shooter Game with LibGDX (In Development)
